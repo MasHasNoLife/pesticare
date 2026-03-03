@@ -1,5 +1,5 @@
-# Ignore ML pipeline large files
-ml_pipeline/
+# Ignore only large generated files
+ml_pipeline/embeddings.jsonl
 *.jsonl
 
 # Flutter
