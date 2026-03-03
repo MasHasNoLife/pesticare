@@ -1,16 +1,36 @@
-# pesticare
+# 🌱 Pesticare
 
-A new Flutter project.
+An AI-powered mobile application that detects crop diseases from images and recommends suitable pesticide treatments.
 
-## Getting Started
+Developed as a Final Year Project (BS Artificial Intelligence).
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- Image-based crop disease detection
+- ML embedding pipeline
+- Pesticide recommendation system
+- Flutter cross-platform mobile app
+- English & Urdu support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Tech Stack
+- Flutter (Frontend)
+- Python (Backend)
+- Machine Learning (Embedding-based analysis)
+
+---
+
+## 📂 Structure
+- `lib/` → Flutter app  
+- `backend/` → API & inference  
+- `ml_pipeline/` → ML scripts  
+
+⚠️ Large generated files (e.g., embeddings) are excluded due to GitHub size limits.
+
+---
+
+## 👨‍💻 Author
+Muhammad Abdullah Shaheer  
+BS Artificial Intelligence – Air University
