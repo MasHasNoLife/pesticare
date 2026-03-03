@@ -1,0 +1,19 @@
+# Ignore ML pipeline large files
+ml_pipeline/
+*.jsonl
+
+# Flutter
+.dart_tool/
+build/
+.idea/
+.metadata
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+*.pt
+*.pth
+*.h5
