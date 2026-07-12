@@ -1,0 +1,67 @@
+# --- Secrets ---
+.env
+*.env
+!.env.example
+
+# --- Flutter / Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.g.dart.bak
+
+# --- IDE / tooling ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.metadata
+
+# --- Android ---
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+*.jks
+*.keystore
+
+# --- iOS / macOS ---
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+macos/Pods/
+macos/Flutter/ephemeral/
+**/xcuserdata/
+
+# --- Windows / Linux ---
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# --- Python (backend & ml_pipeline) ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- ML artifacts (too large / regenerable) ---
+ml_pipeline/embeddings.jsonl
+ml_pipeline/dataset/
+*.pt
+*.onnx
+*.safetensors
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
