@@ -165,7 +165,3 @@ flutter run --dart-define=BACKEND_URL=http://192.168.1.20:8000
 
 - No API keys live in this repository — all credentials are read from environment variables (`backend/.env`, gitignored). Use `backend/.env.example` as a template.
 - CORS is currently open (`*`) for development; restrict `allow_origins` before deploying publicly.
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
